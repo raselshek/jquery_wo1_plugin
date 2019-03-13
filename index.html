@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- ------------ customs css------ -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Hello, world!</title>
+    <style>
+      .wow img{ 
+        width:100px;
+
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="wow slideInRight">
+            <img src="images/wow-2.gif" alt="">
+        </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="wow rollIn">
+           <h1>That's a awesome jquery plugins</h1>
+        </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="wow flip">
+            <h1>That's a awesome jquery plugins</h1>
+        </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- jQuery links -->
+    <script src="js/jquery.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+    <script>
+    new WOW().init({
+          delay: 1000,
+          time: 5000
+    });
+    </script>
+
+  </body>
+</html>
